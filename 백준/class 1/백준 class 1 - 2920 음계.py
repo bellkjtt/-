@@ -3,9 +3,9 @@ b = [i for i in range(1,9)]
 c = [i for i in range(8,0,-1)]
 count=0
 for i in range(8):
-    if b[i]==int(a[i]):
+    if b[i]==int(a[i]):  #높아지는걸 센다
         count+=1
-    elif c[i]==int(a[i]):
+    elif c[i]==int(a[i]): #낮아지는 걸 센다
         count-=1
 if count==8:
     print('ascending')
